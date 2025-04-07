@@ -1,9 +1,14 @@
-import { useState } from 'react'
+
+import { ChatContainer } from "./components/chat/ChatContainer";
+import { Toaster } from "./components/ui/toaster";
 
 function App() {
   return (
-    <div></div>
-  )
+    <main className="container">
+      <ChatContainer />
+      <Toaster />
+    </main>
+  );
 }
 
-export default App 
+export default App;
